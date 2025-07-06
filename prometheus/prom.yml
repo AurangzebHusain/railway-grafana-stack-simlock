@@ -4,7 +4,7 @@ global:
 scrape_configs:
   - job_name: 'prometheus'
     static_configs:
-      - targets: ['https://prod-gingercat.simlockcommunication.com']
+      - targets: ['ecom_web_backend.railway.internal','https://prod-gingercat.simlockcommunication.com']
 
   # - job_name: 'example_api'
   #   scheme: http
