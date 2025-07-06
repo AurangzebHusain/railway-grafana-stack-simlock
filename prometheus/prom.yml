@@ -4,7 +4,7 @@ global:
 scrape_configs:
   - job_name: 'prometheus'
     static_configs:
-      - targets: ['localhost:9090']
+      - targets: ['ecom_web_backend.railway.internal']
 
   # - job_name: 'example_api'
   #   scheme: http
